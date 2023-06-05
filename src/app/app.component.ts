@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'switchpro';
+  Selectedproduct:any;
+  Data(event:any){
+this.Selectedproduct=event.target.value
+  }
 }
